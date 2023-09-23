@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Repair Pro  V1.0 - Gestión OS</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Menú------------------------------------------>
+    <div class="contenido"> <!--1 -->
+            <aside> 
+                <div class="contenido-aside">
+                    <div class="titulo-menu">
+                        Menú
+                    </div>
+                    
+                    <div class="linea-normal">
+                    <a href="clientes.html">Gestión de Clientes</a>   
+                    </div>
+                    
+                    <div class="linea-normal">
+                        <a href="vehiculos.html">Gestión de Vehículos</a> 
+                    </div>
+
+                    <div class="linea-normal">
+                        <a href="gestion_os.html">Gestión OS</a> 
+                    </div>
+
+                    <div class="linea-normal">
+                        <a href="funcionarios.html">Gestión de Personal Interno</a> 
+                    </div>
+                    
+                    <div class="linea-normal padre">
+                        Parametrizaciones
+                    </div>
+                    
+                    <div class="linea-normal">
+                        <a href="maestro_inventario.html">Maestro de Inventario</a> 
+                    </div>
+                    <div class="linea-normal">
+                        <a href="maestro_servicios.html">Maestro de Servicios</a> 
+                    </div>
+
+                    <div class="linea-normal">
+                        Cerrar sesión
+                    </div>
+                </div> <!-- CIERRA DIV CONTENIDO ASIDE -->
+            </aside> <!-- CIERRE ASIDE -->
+            
+            
+            <!--- Contenido 2 ----------------------------->
+             
+            <div class="work-area">
+                
+                <div class="title">
+                   Gestión de Ordenes de Servicio
+                </div>      
+                    
+                    <form class="form-principal">
+                        <div class="campos">
+
+                            <div class="caja">
+                                <label for="" class="label">
+                                    Cod. Orden
+                                </label>
+                                <input type="text" class="campo" name="">
+                            </div>
+                            
+                            <div class="caja">
+                                <label for="" class="label">Fecha Ingreso</label>
+                                <input type="text" class="campo" name="">
+                            </div>
+
+                            
+                            <div class="caja">
+                                <label for="" class="label">Fecha Fin</label>
+                                <input type="text" class="campo" name="">
+                            </div>
+
+                                
+                            <div class="caja">
+                                <label for="" class="label">
+                                    Cliente
+                                </label>
+                                <select class="campo" name="">
+                                    <option value="cliente1">Juan Pérez</option>
+                                    <option value="cliente2">María Rodríguez</option>
+                                    <option value="cliente3">Luis González</option>
+                                    <option value="cliente4">Ana Martínez</option>
+                                    <option value="cliente5">Carlos Sánchez</option>
+                                    <option value="cliente6">Isabel López</option>
+                                    <option value="cliente7">Javier Hernández</option>
+                                    <option value="cliente8">Sofía Fernández</option>
+                                    <option value="cliente9">Miguel Ángel Ramírez</option>
+                                    <option value="cliente10">Laura Morales</option>
+                                </select>
+                            </div>
+                            
+                            <div class="caja">
+                                <label for="" class="label">Placa Vehículo</label>
+                                <input type="text" class="campo" name="">
+                            </div>    
+
+
+
+                            <div class="caja">
+                                <label for="" class="label">
+                                   KM Ingreso
+                                </label>
+                                <input type="number" min="0" max="10000000" step="1" class="campo medium" name="">
+                            </div>
+
+                            <div class="caja">
+                                <label for="" class="label">
+                                   KM Salida
+                                </label>
+                                <input type="number" min="0" max="10000000" step="1" class="campo medium" name="">
+                            </div>
+
+                            <div class="caja">
+                                <label for="" class="label">
+                                    Observaciones de Ingreso del vehículo
+                                </label>
+                                <textarea type="text" class="campo medium" name="" cols="40">
+                                </textarea>    
+                            </div>
+                            
+                                                      
+                            <div class="caja">
+                                <label for="" class="label">
+                                    Observaciones de Ingreso del vehículo
+                                </label>
+                                <textarea type="text" class="campo medium" name="" cols="40">
+                                </textarea>    
+                            </div>
+                            
+                            <div class="caja">
+                                <label for="" class="label">
+                                    Estado de Orden
+                                </label>
+                                <select class="campo" name="">
+                                    <option value="pendiente">Pendiente</option>
+                                    <option value="en_proceso">En Proceso</option>
+                                    <option value="completado">Completado</option>
+                                    <option value="cancelado">Cancelado</option>
+                                    <option value="en_espera">En Espera</option>
+                                    <option value="en_revision">En Revisión</option>
+                                    <option value="programado">Programado</option>
+                                    <option value="rechazado">Rechazado</option>
+                                    <option value="devuelto">Devuelto</option>
+                                    <option value="suspendido">Suspendido</option>
+                                    <option value="reparacion">Reparación</option>
+                                    <option value="esperando_piezas">Esperando Piezas</option>
+                                                                       
+                                </select>
+                            </div>
+                        </div>
+                        <div class="botones">
+                            <input type="button" class="btn btn-submit" name="submit" value="Buscar">
+                            <input type="button" class="btn btn-submit" name="submit" value="Adicionar">
+                            <input type="button" class="btn btn-submit" name="submit" value="Actualizar">
+                            <input type="button" class="btn btn-submit" name="submit" value="Eliminar">
+                        </div>
+
+                        
+                    </form>
+                    
+
+                    <!-------->
+
+                        
+    
+            </div> <!-- CIERRA WORK-AREA -->
+    </div> <!-- CIERRA  CONTENIDO -->
+    <script>
+        function mostrarMensaje() {
+            alert("Desa Salir del Sistema?");
+        }
+    </script>
+</body>
+</html>

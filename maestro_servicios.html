@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Repair Pro  V1.0 - Maestro de Servicios</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Menú------------------------------------------>
+    <div class="contenido"> <!--1 -->
+            <aside> 
+                <div class="contenido-aside">
+                    <div class="titulo-menu">
+                        Menú
+                    </div>
+                    
+                    <div class="linea-normal">
+                    <a href="clientes.html">Gestión de Clientes</a>   
+                    </div>
+                    
+                    <div class="linea-normal">
+                        <a href="vehiculos.html">Gestión de Vehículos</a> 
+                    </div>
+
+                    <div class="linea-normal">
+                        <a href="gestion_os.html">Gestión OS</a> 
+                    </div>
+
+                    <div class="linea-normal">
+                        <a href="funcionarios.html">Gestión de Personal Interno</a> 
+                    </div>
+                    
+                    <div class="linea-normal padre">
+                        Parametrizaciones
+                    </div>
+                    
+                    <div class="linea-normal">
+                        <a href="maestro_inventario.html">Maestro de Inventario</a> 
+                    </div>
+                    <div class="linea-normal">
+                        <a href="maestro_servicios.html">Maestro de Servicios</a> 
+                    </div>
+
+                    <div class="linea-normal">
+                        Cerrar sesión
+                    </div>
+                </div> <!-- CIERRA DIV CONTENIDO ASIDE -->
+            </aside> <!-- CIERRE ASIDE -->
+            
+            
+            <!--- Contenido 2 ----------------------------->
+             
+            <div class="work-area">
+                
+                <div class="title">
+                   Maestro de Servicios
+                </div>      
+                    
+                    <form class="form-principal">
+                        
+                        <div class="campos">
+
+                            <div class="caja">
+                                <label for="" class="label">
+                                    Cod. Servicio
+                                </label>
+                                <input type="text" class="campo" name="">
+                            </div>
+                            
+                            <div class="caja">
+                                <label for="" class="label">Denominación del Servicio</label>
+                                <input type="text" class="campo" name="">
+                            </div>
+                            
+                            <div class="caja">
+                                <label for="" class="label">
+                                   Tiempo de Atención (Horas proyectadas)
+                                </label>                                
+                                <input type="number" min="1800" max="2030" step="1" class="campo medium" name="">
+                            </div>
+
+                            <div class="caja">
+                                <label for="" class="label">
+                                    Sistema Vehicular
+                                </label>
+                                <select class="campo" name="">
+                                    <option value="Sistema de Propulsión">Sistema de Propulsión</option>
+                                    <option value="Sistema de Suspensión y Dirección">Sistema de Suspensión y Dirección</option>
+                                    <option value="Sistema de Frenos">Sistema de Frenos</option>
+                                    <option value="Sistema Eléctrico">Sistema Eléctrico</option>
+                                    <option value="Sistema de Luces y Señalización">Sistema de Luces y Señalización</option>
+                                    <option value="Sistema de Carrocería y Exterior">Sistema de Carrocería y Exterior</option>
+                                    <option value="Sistema de Interiores">Sistema de Interiores</option>
+                                    
+                                </select>
+                            </div>
+
+                           
+                            <div class="caja">
+                                <label for="" class="label">
+                                    Categoría del Servicio
+                                </label>
+                                <select class="campo" name="">
+                                    <option value="mantenimiento">Mantenimiento Preventivo</option>
+                                    <option value="motor">Reparación de Motor</option>
+                                    <option value="frenos_suspension">Sistema de Frenos y Suspensión</option>
+                                    <option value="electronica_electricidad">Electrónica y Electricidad</option>
+                                    <option value="transmision">Transmisión y Cambio de Marchas</option>
+                                    <option value="aire_acondicionado">Sistema de Aire Acondicionado y Calefacción</option>
+                                    <option value="escape">Sistema de Escape</option>
+                                    <option value="carroceria_pintura">Servicios de Carrocería y Pintura</option>
+                                    <option value="inspeccion_emisiones">Inspección Técnica y Emisiones</option>
+                                    <option value="neumaticos">Servicio de Neumáticos</option>
+                                    <option value="remolque">Servicios de Remolque</option>
+                                    <option value="limpieza_detallado">Servicios de Limpieza y Detallado</option>
+                                </select>
+                            </div>
+                            
+                           <div class="caja">
+                                <label for="" class="label">
+                                    Especificaciones
+                                </label>
+                                <textarea type="text" class="campo medium" name="" cols="40">
+                                </textarea>    
+                            </div>
+
+                            <div class="caja radio">
+                                <input type="radio" id="" name="fav_language" value="HTML">
+                                <label for="html">Activo</label><br>
+                                <input type="radio" id="" name="fav_language" value="CSS">
+                                <label for="css">Inactivo</label><br>
+                             </div>
+                        
+                        </div>    
+
+                            
+                            <!-------->
+                    </form>
+
+                    <div class="botones">
+                        <input type="button" class="btn btn-submit" name="submit" value="Buscar">
+                        <input type="button" class="btn btn-submit" name="submit" value="Adicionar">
+                        <input type="button" class="btn btn-submit" name="submit" value="Actualizar">
+                        <input type="button" class="btn btn-submit" name="submit" value="Eliminar">
+                    </div>
+    
+            </div> <!-- CIERRA WORK-AREA -->
+    </div> <!-- CIERRA  CONTENIDO -->
+</body>
+</html>
